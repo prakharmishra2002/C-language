@@ -1,0 +1,10 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+double r,circumference;
+printf("enter the value of radius");
+scanf("%lf",&r);
+circumference=2*3.14*r;
+printf("%lf",circumference);
+}
